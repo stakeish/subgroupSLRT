@@ -36,7 +36,7 @@ alpha.dim <- length(alpha)
 
 summary_matrix <- matrix(double(length(sample_size)*4), nrow = length(sample_size), ncol = 4)
 
-for(i in 4:length(sample_size)) {
+for(i in 1:length(sample_size)) {
 
   n <- sample_size[i]
   p <- intercept + coef * n^(7/8) * sqrt(log(gamma.dim))

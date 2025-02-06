@@ -38,7 +38,7 @@ Sigma_mat_root <- Sigma_mat_root / sqrt(Sigma_mat_sum)
 Sigma_mat <- Sigma_mat_root %*% t(Sigma_mat_root)
 
 
-for(i in 5:5) {
+for(i in 1:length(sample_size)) {
 
   n <- sample_size[i]
   p <- intercept + coef * n^(7/8) * sqrt(log(gamma.dim))

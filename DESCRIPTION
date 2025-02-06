@@ -1,4 +1,4 @@
-Package: subgruopSLRT
+Package: subgroupSLRT
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
@@ -9,5 +9,11 @@ Description: More about what it does (maybe more than one line)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports: Rcpp (>= 1.0.11)
-LinkingTo: Rcpp
+Imports: 
+  Rcpp (>= 1.0.11),
+  RcppArmadillo,
+  nloptr
+LinkingTo: 
+  Rcpp,
+  RcppArmadillo,
+  nloptr

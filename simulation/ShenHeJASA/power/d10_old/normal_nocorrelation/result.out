@@ -1,0 +1,69 @@
+[[1]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[2]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[3]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[4]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[5]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[6]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[7]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[8]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[9]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[10]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[[11]]
+ [1] "RcppArmadillo" "Rcpp"          "nloptr"        "quadprog"     
+ [5] "subgroupSLRT"  "stats"         "graphics"      "grDevices"    
+ [9] "utils"         "datasets"      "methods"       "base"         
+
+[1] 100
+[1] 250
+[1] 500
+[1] 750
+[1] 1000
+     [,1]   [,2]   [,3]
+[1,]  100 0.1655 0.1675
+[2,]  250 0.2790 0.2895
+[3,]  500 0.3695 0.3865
+[4,]  750 0.4595 0.4500
+[5,] 1000 0.5230 0.5255
+> proc.time()
+   ユーザ   システム       経過  
+     7.026      1.800  22236.998 

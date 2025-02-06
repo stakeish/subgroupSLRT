@@ -1,3 +1,2 @@
 exportPattern("^[[:alpha:]]+")
-importFrom(Rcpp, evalCpp)
-useDynLib(subgruopSLRT, .registration = TRUE)
+useDynLib(subgroupSLRT, .registration = TRUE)

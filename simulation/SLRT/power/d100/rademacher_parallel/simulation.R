@@ -29,7 +29,7 @@ alpha.dim <- length(alpha)
 summary_matrix <- matrix(double(length(sample_size)*4), nrow = length(sample_size), ncol = 4)
 colnames(summary_matrix) <- c("power equal", "power SLR", "adj. power equal", "adj. power SLR")
 
-for(i in 5:length(sample_size)) {
+for(i in 1:length(sample_size)) {
 
   n <- sample_size[i]
   p <- intercept + coef * n^(7/8) * sqrt(log(gamma.dim))
@@ -56,7 +56,7 @@ for(i in 5:length(sample_size)) {
   #SLRT_vec <- double(nreps)
   #LRT.equal_vec <- double(nreps)
 
-  for(iter in 4851:nreps){
+  for(iter in 1:nreps){
     x <- x_set[, , iter]
     d <- d_set[, , iter]
     z <- z_set[, , iter]
